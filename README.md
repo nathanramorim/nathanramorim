@@ -63,6 +63,7 @@ flowchart LR
 | ⚒️ | **[Forge SDD](https://github.com/nathanramorim/forge-sdd)**<br/><sub>open source · npm</sub> | IA escrevendo código sem saber o que o projeto quer, e cada projeto de um jeito | Metodologia de **Spec Driven Development**: documentos curtos que dizem o que construir e como, e guiam pessoas e agentes |
 | 📄 | **[readme-studio](https://github.com/nathanramorim/readme-studio)**<br/><sub>open source · MIT</sub> | README sem padrão, que não vende o projeto | Plugin para Claude Code e skill para agy: lê o projeto, gera banner com a marca, selos e tabela de versões, e só grava depois do seu "sim" |
 | 🗂️ | **[drive-hub-sync](https://github.com/nathanramorim/drive-hub-sync)**<br/><sub>open source · MIT</sub> | Documentação de cada projeto espalhada, sem visão do todo | Gera a documentação do projeto e sincroniza uma estrutura padrão no Google Drive, pronta para o NotebookLM conhecer todos os projetos. Código e segredos nunca sobem |
+| 📐 | **[diagram-studio](https://github.com/nathanramorim/diagram-studio)**<br/><sub>open source · MIT</sub> | Diagrama técnico feio, desalinhado e cada um num estilo | Plugin para Claude Code e skill para agy: você descreve, ele gera SVG e PNG com setas retas, texto que cabe e assinatura. Os diagramas desta página saíram dele |
 | 💬 | **Agente replicável por nicho**<br/><sub>produto · em construção</sub> | Pequenos negócios querem IA, mas não um projeto sob medida | Um núcleo igual para todos e uma pasta de configuração por cliente. Cliente novo vira configuração, não projeto |
 
 ---
@@ -140,6 +141,7 @@ My focus isn't the language. It's **delivering without surprises**: write down w
 | **[Forge SDD](https://github.com/nathanramorim/forge-sdd)** | Open source Spec Driven Development methodology that guides both humans and AI agents |
 | **[readme-studio](https://github.com/nathanramorim/readme-studio)** | Claude Code plugin that generates a branded, standardized README from your project |
 | **[drive-hub-sync](https://github.com/nathanramorim/drive-hub-sync)** | Generates project docs and syncs a standard structure to Google Drive, ready for NotebookLM. Code and secrets never leave |
+| **[diagram-studio](https://github.com/nathanramorim/diagram-studio)** | Claude Code plugin that turns a short JSON into clean SVG and PNG technical diagrams, with your signature |
 | **Niche agent product** *(WIP)* | Same core for everyone, one config folder per customer |
 
 **Architecture decisions:** legacy to modular monolith with the Strangler Fig pattern, without stopping operations · two frontends and one API, isolated by persona, so the customer app stays stable while the back office grows.
