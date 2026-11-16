@@ -1,0 +1,187 @@
+{
+ "kicker": "// como eu decido",
+ "titulo": "Seis princípios que guiam cada escolha",
+ "altura": 420,
+ "elementos": [
+  {
+   "tipo": "caixa",
+   "x": 56,
+   "y": 128,
+   "w": 368,
+   "h": 112,
+   "texto": "",
+   "estilo": "contorno"
+  },
+  {
+   "tipo": "texto",
+   "x": 240,
+   "y": 160,
+   "texto": "01",
+   "estilo": "rotulo"
+  },
+  {
+   "tipo": "texto",
+   "x": 240,
+   "y": 192,
+   "texto": "Governança primeiro",
+   "estilo": "titulo"
+  },
+  {
+   "tipo": "texto",
+   "x": 240,
+   "y": 218,
+   "texto": "licença, segurança e dados antes de tudo",
+   "tamanho": 14
+  },
+  {
+   "tipo": "caixa",
+   "x": 456,
+   "y": 128,
+   "w": 368,
+   "h": 112,
+   "texto": "",
+   "estilo": "contorno"
+  },
+  {
+   "tipo": "texto",
+   "x": 640,
+   "y": 160,
+   "texto": "02",
+   "estilo": "rotulo"
+  },
+  {
+   "tipo": "texto",
+   "x": 640,
+   "y": 192,
+   "texto": "Escrever antes de codar",
+   "estilo": "titulo"
+  },
+  {
+   "tipo": "texto",
+   "x": 640,
+   "y": 218,
+   "texto": "sem nada escrito, ninguém começa",
+   "tamanho": 14
+  },
+  {
+   "tipo": "caixa",
+   "x": 856,
+   "y": 128,
+   "w": 368,
+   "h": 112,
+   "texto": "",
+   "estilo": "contorno"
+  },
+  {
+   "tipo": "texto",
+   "x": 1040,
+   "y": 160,
+   "texto": "03",
+   "estilo": "rotulo"
+  },
+  {
+   "tipo": "texto",
+   "x": 1040,
+   "y": 192,
+   "texto": "Custo é requisito",
+   "estilo": "titulo"
+  },
+  {
+   "tipo": "texto",
+   "x": 1040,
+   "y": 218,
+   "texto": "cabe no orçamento; custo zero quando dá",
+   "tamanho": 14
+  },
+  {
+   "tipo": "caixa",
+   "x": 56,
+   "y": 264,
+   "w": 368,
+   "h": 112,
+   "texto": "",
+   "estilo": "contorno"
+  },
+  {
+   "tipo": "texto",
+   "x": 240,
+   "y": 296,
+   "texto": "04",
+   "estilo": "rotulo"
+  },
+  {
+   "tipo": "texto",
+   "x": 240,
+   "y": 328,
+   "texto": "Só o necessário",
+   "estilo": "titulo"
+  },
+  {
+   "tipo": "texto",
+   "x": 240,
+   "y": 354,
+   "texto": "o agente recebe só o que precisa",
+   "tamanho": 14
+  },
+  {
+   "tipo": "caixa",
+   "x": 456,
+   "y": 264,
+   "w": 368,
+   "h": 112,
+   "texto": "",
+   "estilo": "contorno"
+  },
+  {
+   "tipo": "texto",
+   "x": 640,
+   "y": 296,
+   "texto": "05",
+   "estilo": "rotulo"
+  },
+  {
+   "tipo": "texto",
+   "x": 640,
+   "y": 328,
+   "texto": "Fazer uma vez, usar sempre",
+   "estilo": "titulo"
+  },
+  {
+   "tipo": "texto",
+   "x": 640,
+   "y": 354,
+   "texto": "o que funciona vira modelo para o próximo",
+   "tamanho": 14
+  },
+  {
+   "tipo": "caixa",
+   "x": 856,
+   "y": 264,
+   "w": 368,
+   "h": 112,
+   "texto": "",
+   "estilo": "contorno"
+  },
+  {
+   "tipo": "texto",
+   "x": 1040,
+   "y": 296,
+   "texto": "06",
+   "estilo": "rotulo"
+  },
+  {
+   "tipo": "texto",
+   "x": 1040,
+   "y": 328,
+   "texto": "Pessoa decide",
+   "estilo": "titulo"
+  },
+  {
+   "tipo": "texto",
+   "x": 1040,
+   "y": 354,
+   "texto": "o agente executa, a pessoa aprova",
+   "tamanho": 14
+  }
+ ]
+}

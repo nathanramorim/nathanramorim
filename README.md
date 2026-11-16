@@ -32,27 +32,7 @@ Meu foco não é a linguagem. É **entregar resultado sem surpresa**: primeiro e
 
 ## 🔁 Como uma entrega acontece
 
-```mermaid
-flowchart LR
-    A([Problema de negócio]) --> B[O que fazer<br/>Forge SDD]
-    B --> C{Humano<br/>aprova?}
-    C -- não --> B
-    C -- sim --> D[Agente<br/>backlog]
-    D --> E[Agente<br/>dev]
-    E --> F[Agente<br/>review]
-    F -- ajustes --> E
-    F --> G[Agente<br/>devops]
-    G --> H([No ar<br/>e rastreável])
-
-    classDef human fill:#0d0f14,stroke:#4f8ef7,color:#f5f7fb,stroke-width:2px;
-    classDef agent fill:#141925,stroke:#2a3245,color:#c3cad8;
-    classDef done fill:#4f8ef7,stroke:#4f8ef7,color:#0d0f14,font-weight:bold;
-    class A,B,C human;
-    class D,E,F,G agent;
-    class H done;
-```
-
-> Cada tarefa é um card no GitHub Project. O agente só começa quando o card chega na coluna dele.
+<p align="center"><img src="./assets/fluxo-entrega.svg" alt="Fluxo de entrega: problema, o que fazer, pessoa aprova, agentes de IA, no ar" width="100%"/></p>
 
 ---
 
@@ -94,8 +74,9 @@ Duas decisões reais, contadas de forma simples. Os clientes estão anonimizados
 
 ### Meus princípios de decisão
 
-| Princípio | Na prática |
-|---|---|
+<p align="center"><img src="./assets/principios.svg" alt="Seis princípios de decisão" width="100%"/></p>
+
+---|---|
 | 🔐 **Governança primeiro** | Toda ferramenta passa por licença, segurança e tratamento de dados antes de entrar |
 | 📝 **Escrever antes de codar** | Se não está escrito, nem pessoa nem agente começa |
 | 💰 **Custo é requisito** | Arquitetura que cabe no orçamento, e custo zero quando dá |
@@ -107,8 +88,9 @@ Duas decisões reais, contadas de forma simples. Os clientes estão anonimizados
 
 ## 📈 Cases
 
-| Desafio | Abordagem | Entrega |
-|---|---|---|
+<p align="center"><img src="./assets/cases.svg" alt="Três cases: escritório contábil, rede de autopeças e SaaS indo para produção" width="100%"/></p>
+
+---|---|---|
 | **Escritório contábil com mais de 1000 clientes** baixando arquivos fiscais um a um | Automação do download em massa com procuração eletrônica | Download em lote e automatizado, no lugar do processo cliente a cliente |
 | **Rede de autopeças com cerca de 12 filiais** precisando trocar de ERP | Levantamento de processos, critérios de governança e comparação de fornecedores | Decisão de ERP baseada em critério, não em demo |
 | **Sistema SaaS prestes a entrar em produção** | Auditoria de segurança, riscos e infraestrutura antes de ir ao ar | Lista priorizada de riscos e plano de correção antes do primeiro cliente |

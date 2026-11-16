@@ -1,0 +1,201 @@
+{
+ "kicker": "// como eu entrego",
+ "titulo": "Da ideia à produção: a pessoa decide, os agentes executam",
+ "altura": 350,
+ "nota_rodape": "cada tarefa é um card no GitHub Project",
+ "elementos": [
+  {
+   "tipo": "caixa",
+   "x": 478,
+   "y": 156,
+   "w": 622,
+   "h": 134,
+   "texto": "agentes de IA",
+   "estilo": "grupo"
+  },
+  {
+   "tipo": "caixa",
+   "id": "prob",
+   "x": 56,
+   "y": 200,
+   "w": 116,
+   "h": 60,
+   "texto": "Problema",
+   "estilo": "contorno",
+   "tamanho": 15,
+   "sub": "de negócio"
+  },
+  {
+   "tipo": "caixa",
+   "id": "spec",
+   "x": 206,
+   "y": 200,
+   "w": 116,
+   "h": 60,
+   "texto": "O que fazer",
+   "estilo": "contorno",
+   "tamanho": 15,
+   "sub": "Forge SDD"
+  },
+  {
+   "tipo": "caixa",
+   "id": "ok",
+   "x": 356,
+   "y": 200,
+   "w": 116,
+   "h": 60,
+   "texto": "Pessoa",
+   "estilo": "pill",
+   "tamanho": 15,
+   "sub": "aprova"
+  },
+  {
+   "tipo": "caixa",
+   "id": "bk",
+   "x": 506,
+   "y": 200,
+   "w": 116,
+   "h": 60,
+   "texto": "backlog",
+   "estilo": "normal",
+   "tamanho": 15
+  },
+  {
+   "tipo": "caixa",
+   "id": "dev",
+   "x": 656,
+   "y": 200,
+   "w": 116,
+   "h": 60,
+   "texto": "dev",
+   "estilo": "normal",
+   "tamanho": 15
+  },
+  {
+   "tipo": "caixa",
+   "id": "rev",
+   "x": 806,
+   "y": 200,
+   "w": 116,
+   "h": 60,
+   "texto": "review",
+   "estilo": "normal",
+   "tamanho": 15
+  },
+  {
+   "tipo": "caixa",
+   "id": "ops",
+   "x": 956,
+   "y": 200,
+   "w": 116,
+   "h": 60,
+   "texto": "devops",
+   "estilo": "normal",
+   "tamanho": 15
+  },
+  {
+   "tipo": "caixa",
+   "id": "ar",
+   "x": 1106,
+   "y": 200,
+   "w": 116,
+   "h": 60,
+   "texto": "No ar",
+   "estilo": "destaque",
+   "tamanho": 15,
+   "sub": "e rastreável"
+  },
+  {
+   "tipo": "seta",
+   "de": "prob.dir",
+   "para": "spec.esq"
+  },
+  {
+   "tipo": "seta",
+   "de": "spec.dir",
+   "para": "ok.esq"
+  },
+  {
+   "tipo": "seta",
+   "de": "ok.dir",
+   "para": "bk.esq"
+  },
+  {
+   "tipo": "seta",
+   "de": "bk.dir",
+   "para": "dev.esq"
+  },
+  {
+   "tipo": "seta",
+   "de": "dev.dir",
+   "para": "rev.esq"
+  },
+  {
+   "tipo": "seta",
+   "de": "rev.dir",
+   "para": "ops.esq"
+  },
+  {
+   "tipo": "seta",
+   "de": "ops.dir",
+   "para": "ar.esq"
+  },
+  {
+   "tipo": "seta",
+   "pontos": [
+    [
+     414,
+     200
+    ],
+    [
+     414,
+     132
+    ],
+    [
+     264,
+     132
+    ],
+    [
+     264,
+     198
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "x": 339.0,
+   "y": 124,
+   "texto": "não: ajusta e volta",
+   "estilo": "nota"
+  },
+  {
+   "tipo": "seta",
+   "pontos": [
+    [
+     864,
+     260
+    ],
+    [
+     864,
+     278
+    ],
+    [
+     714,
+     278
+    ],
+    [
+     714,
+     262
+    ]
+   ],
+   "estilo": "fraca"
+  },
+  {
+   "tipo": "texto",
+   "x": 789.0,
+   "y": 312,
+   "texto": "ajustes",
+   "estilo": "nota"
+  }
+ ]
+}

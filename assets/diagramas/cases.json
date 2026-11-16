@@ -1,0 +1,140 @@
+{
+ "kicker": "// resultados",
+ "titulo": "Três problemas reais, três entregas",
+ "altura": 410,
+ "nota_rodape": "clientes anonimizados",
+ "elementos": [
+  {
+   "tipo": "texto",
+   "x": 240,
+   "y": 132,
+   "texto": "CASE 01",
+   "estilo": "rotulo"
+  },
+  {
+   "tipo": "caixa",
+   "id": "d0",
+   "x": 56,
+   "y": 148,
+   "w": 368,
+   "h": 88,
+   "texto": "Escritório contábil",
+   "sub": "mais de 1000 clientes, arquivos fiscais um a um",
+   "estilo": "contorno"
+  },
+  {
+   "tipo": "texto",
+   "x": 240,
+   "y": 264,
+   "texto": "download em massa com procuração",
+   "estilo": "nota"
+  },
+  {
+   "tipo": "seta",
+   "de": [
+    240,
+    280
+   ],
+   "para": "e0.cima"
+  },
+  {
+   "tipo": "caixa",
+   "id": "e0",
+   "x": 56,
+   "y": 316,
+   "w": 368,
+   "h": 64,
+   "texto": "Download em lote e automatizado",
+   "estilo": "destaque",
+   "tamanho": 17
+  },
+  {
+   "tipo": "texto",
+   "x": 640,
+   "y": 132,
+   "texto": "CASE 02",
+   "estilo": "rotulo"
+  },
+  {
+   "tipo": "caixa",
+   "id": "d1",
+   "x": 456,
+   "y": 148,
+   "w": 368,
+   "h": 88,
+   "texto": "Rede de autopeças",
+   "sub": "cerca de 12 filiais trocando de ERP",
+   "estilo": "contorno"
+  },
+  {
+   "tipo": "texto",
+   "x": 640,
+   "y": 264,
+   "texto": "processos, critérios e fornecedores",
+   "estilo": "nota"
+  },
+  {
+   "tipo": "seta",
+   "de": [
+    640,
+    280
+   ],
+   "para": "e1.cima"
+  },
+  {
+   "tipo": "caixa",
+   "id": "e1",
+   "x": 456,
+   "y": 316,
+   "w": 368,
+   "h": 64,
+   "texto": "ERP escolhido por critério",
+   "estilo": "destaque",
+   "tamanho": 17
+  },
+  {
+   "tipo": "texto",
+   "x": 1040,
+   "y": 132,
+   "texto": "CASE 03",
+   "estilo": "rotulo"
+  },
+  {
+   "tipo": "caixa",
+   "id": "d2",
+   "x": 856,
+   "y": 148,
+   "w": 368,
+   "h": 88,
+   "texto": "SaaS indo para produção",
+   "sub": "segurança precisava vir antes do lançamento",
+   "estilo": "contorno"
+  },
+  {
+   "tipo": "texto",
+   "x": 1040,
+   "y": 264,
+   "texto": "auditoria de segurança e infraestrutura",
+   "estilo": "nota"
+  },
+  {
+   "tipo": "seta",
+   "de": [
+    1040,
+    280
+   ],
+   "para": "e2.cima"
+  },
+  {
+   "tipo": "caixa",
+   "id": "e2",
+   "x": 856,
+   "y": 316,
+   "w": 368,
+   "h": 64,
+   "texto": "Riscos priorizados e plano",
+   "estilo": "destaque",
+   "tamanho": 17
+  }
+ ]
+}
