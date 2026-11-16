@@ -17,12 +17,12 @@
 
 Arquiteto de soluções e tech lead na **DTI Digital**, com mais de 5 anos liderando times em ambientes corporativos de governança forte. Na **Busize**, minha consultoria, levo operação, automação e IA aplicada para empresas menores.
 
-Meu foco não é a linguagem nem o framework. É **chegar ao resultado com previsibilidade**: spec antes do código, agentes fazendo o trabalho repetitivo, humano decidindo o que importa, e tudo rastreável.
+Meu foco não é a linguagem. É **entregar resultado sem surpresa**: primeiro escrevo o que vai ser feito, os agentes de IA fazem o trabalho repetitivo, e as pessoas decidem o que importa.
 
 <table>
 <tr>
 <td align="center" width="25%"><h3>🧭</h3><b>Arquitetura</b><br/><sub>soluções em nuvem que cabem no orçamento e na governança</sub></td>
-<td align="center" width="25%"><h3>🤖</h3><b>Operação com IA</b><br/><sub>pipelines de agentes do backlog ao deploy</sub></td>
+<td align="center" width="25%"><h3>🤖</h3><b>Operação com IA</b><br/><sub>agentes que vão da tarefa ao deploy</sub></td>
 <td align="center" width="25%"><h3>⚙️</h3><b>Automação</b><br/><sub>processos manuais que viram rotina de máquina</sub></td>
 <td align="center" width="25%"><h3>👥</h3><b>Liderança técnica</b><br/><sub>times que entregam com método, não com heroísmo</sub></td>
 </tr>
@@ -52,7 +52,7 @@ flowchart LR
     class H done;
 ```
 
-> O GitHub Project é o board oficial: cada card é uma spec, e cada agente só começa quando o card chega na coluna dele.
+> Cada tarefa é um card no GitHub Project. O agente só começa quando o card chega na coluna dele.
 
 ---
 
@@ -60,66 +60,36 @@ flowchart LR
 
 | | Ferramenta | Problema que resolve | Como resolve |
 |:-:|---|---|---|
-| ⚒️ | **[Forge SDD](https://github.com/nathanramorim/forge-sdd)**<br/><sub>open source · npm</sub> | IA gerando código sem contexto, e cada projeto com um jeito diferente | Metodologia de **Spec Driven Development**: constitution, discovery e specs que guiam humanos e agentes, com variantes para Next.js, React + Vite e Node |
+| ⚒️ | **[Forge SDD](https://github.com/nathanramorim/forge-sdd)**<br/><sub>open source · npm</sub> | IA escrevendo código sem saber o que o projeto quer, e cada projeto de um jeito | Metodologia de **Spec Driven Development**: documentos curtos que dizem o que construir e como, e guiam pessoas e agentes |
 | 📄 | **[readme-studio](https://github.com/nathanramorim/readme-studio)**<br/><sub>open source · MIT</sub> | README sem padrão, que não vende o projeto | Plugin para Claude Code e skill para agy: lê o projeto, gera banner com a marca, selos e tabela de versões, e só grava depois do seu "sim" |
 | 🗂️ | **[drive-hub-sync](https://github.com/nathanramorim/drive-hub-sync)**<br/><sub>open source · MIT</sub> | Documentação de cada projeto espalhada, sem visão do todo | Gera a documentação do projeto e sincroniza uma estrutura padrão no Google Drive, pronta para o NotebookLM conhecer todos os projetos. Código e segredos nunca sobem |
-| 💬 | **Agente replicável por nicho**<br/><sub>produto · em construção</sub> | Pequenos negócios querem IA, mas não um projeto sob medida | Núcleo fixo com MCP e APIs do cliente, mais uma pasta de configuração por cliente, rodando em container |
+| 💬 | **Agente replicável por nicho**<br/><sub>produto · em construção</sub> | Pequenos negócios querem IA, mas não um projeto sob medida | Um núcleo igual para todos e uma pasta de configuração por cliente. Cliente novo vira configuração, não projeto |
 
 ---
 
 ## ⚖️ Decisões de arquitetura
 
-Prefiro mostrar **como decido** a listar o que sei usar. Algumas decisões reais, resumidas no formato ADR:
+Duas decisões reais, contadas de forma simples. Os clientes estão anonimizados.
 
-<details open>
-<summary><b>ADR 01 · Agentes de código rodam local; agentes de texto passam por gateway</b></summary>
-<br/>
+### 1. Trocar o legado sem desligar a operação
 
-| Contexto | Decisão | Trade off | Resultado |
-|---|---|---|---|
-| Pipeline com 4 agentes e modelos diferentes por etapa | Backlog e review chamam a **OpenRouter**; dev e devops rodam o **Claude Code na máquina**, autenticados direto no provedor | Duas formas de autenticação para manter | O código não sai do ambiente controlado, e as etapas de texto ficam livres para trocar de modelo por custo |
+<p align="center"><img src="./assets/decisao-estrangulamento.svg" alt="Migração do legado para monólito modular em três fases" width="100%"/></p>
 
-</details>
+| | |
+|---|---|
+| 🧩 **O desafio** | Uma plataforma de planejamento de um cliente B2B rodava num sistema legado que precisava evoluir, mas a operação não podia parar. |
+| ✅ **A decisão** | Migrar para um **monólito modular** usando **estrangulamento** (Strangler Fig). Uma fachada recebe todas as chamadas e decide, rota por rota, se vai para o legado ou para o módulo novo. |
+| 💡 **Por quê** | Cada parte migra de uma vez, com teste e com volta fácil se algo der errado. O usuário não percebe a troca. E os módulos nascem com fronteiras claras, num deploy só. |
 
-<details>
-<summary><b>ADR 02 · O board é a fonte da verdade, não o agente</b></summary>
-<br/>
+### 2. Dois frontends e uma API, separados por quem usa
 
-| Contexto | Decisão | Trade off | Resultado |
-|---|---|---|---|
-| Agentes autônomos tendem a "decidir sozinhos" o que fazer | **GitHub Project** como board canônico: a spec vive na issue e o agente dev só executa com status `ready` | Menos autonomia dos agentes | Cada passo é auditável, e o humano para o fluxo movendo um card |
+<p align="center"><img src="./assets/decisao-personas.svg" alt="Dois frontends por persona falando com uma única API" width="100%"/></p>
 
-</details>
-
-<details>
-<summary><b>ADR 03 · Conhecimento sob demanda, não contexto gigante</b></summary>
-<br/>
-
-| Contexto | Decisão | Trade off | Resultado |
-|---|---|---|---|
-| Prompts inchados com todas as boas práticas a cada chamada | **Índice roteável** (`INDEX.md`) que aponta para o arquivo certo conforme a tarefa | Exige curadoria do índice | Menos token por tarefa e respostas mais consistentes |
-
-</details>
-
-<details>
-<summary><b>ADR 04 · Produto replicável = núcleo fixo + configuração por cliente</b></summary>
-<br/>
-
-| Contexto | Decisão | Trade off | Resultado |
-|---|---|---|---|
-| Cada cliente pedindo "o seu agente" | Um **núcleo único** em container e uma **pasta de config** com contexto, ferramentas e MCP de cada cliente | Customização profunda fica limitada | Cliente novo vira configuração, não projeto |
-
-</details>
-
-<details>
-<summary><b>ADR 05 · Recomeçar do zero quando o custo de consertar é maior</b></summary>
-<br/>
-
-| Contexto | Decisão | Trade off | Resultado |
-|---|---|---|---|
-| Hub antigo de clientes com estrutura que não escalava | Criar um **repositório novo** a partir de constitution e discovery do Forge SDD, migrando os projetos depois | Retrabalho de migração | Base limpa, documentada e pronta para crescer |
-
-</details>
+| | |
+|---|---|
+| 🧩 **O desafio** | Num app de agendamento, o cliente final precisa de algo simples e sempre no ar. A gestão do negócio precisa ganhar módulos novos o tempo todo. |
+| ✅ **A decisão** | **Dois frontends**, um para cada persona, falando com **uma única API** que controla o acesso de cada um. |
+| 💡 **Por quê** | O app do cliente continua funcionando enquanto a gestão evolui, sem medo de impacto. A regra de negócio fica em um lugar só: a API. |
 
 ### Meus princípios de decisão
 
@@ -161,7 +131,7 @@ Publico a série **AI Engineering** no [LinkedIn](https://www.linkedin.com/in/na
 
 Solutions Architect and Tech Lead at **DTI Digital**, with 5+ years leading teams in enterprise environments with strong governance. Through **Busize**, my consultancy, I bring operations, automation and applied AI to smaller businesses.
 
-I don't sell a language or a framework. I sell **predictable outcomes**: spec before code, agents doing the repetitive work, humans making the calls that matter, and everything traceable.
+My focus isn't the language. It's **delivering without surprises**: write down what will be built first, let AI agents do the repetitive work, and keep people making the calls that matter.
 
 **What I've built**
 
@@ -170,7 +140,9 @@ I don't sell a language or a framework. I sell **predictable outcomes**: spec be
 | **[Forge SDD](https://github.com/nathanramorim/forge-sdd)** | Open source Spec Driven Development methodology that guides both humans and AI agents |
 | **[readme-studio](https://github.com/nathanramorim/readme-studio)** | Claude Code plugin that generates a branded, standardized README from your project |
 | **[drive-hub-sync](https://github.com/nathanramorim/drive-hub-sync)** | Generates project docs and syncs a standard structure to Google Drive, ready for NotebookLM. Code and secrets never leave |
-| **Niche agent product** *(WIP)* | Fixed core with MCP and client APIs, configured per customer, running in containers |
+| **Niche agent product** *(WIP)* | Same core for everyone, one config folder per customer |
+
+**Architecture decisions:** legacy to modular monolith with the Strangler Fig pattern, without stopping operations · two frontends and one API, isolated by persona, so the customer app stays stable while the back office grows.
 
 **How I decide:** governance first · spec before code · cost is a requirement · minimal context · replicable by default · human in the loop.
 
