@@ -90,6 +90,13 @@ Publico a série **AI Engineering** no [LinkedIn](https://www.linkedin.com/in/na
 
 **Prompt Engineering** → **Context Engineering** → **Harness Engineering**
 
+### 🎙️ Podcasts
+
+| Episódio | Programa |
+|---|---|
+| [Como a crise do open source muda suas escolhas técnicas](https://open.spotify.com/episode/2BZUdIccCJrxy4DgqQjmYn) | Entre Chaves #292 · 2026 |
+| [Por que pessoas técnicas não podem mais ignorar operações](https://open.spotify.com/episode/11H0GtDjatmPrd60WOKmY6) | Entre Chaves #145 · 2023 |
+
 ---
 
 <a id="-english"></a>
@@ -114,6 +121,8 @@ My focus isn't the language. It's **delivering without surprises**: write down w
 | **Niche agent product** *(WIP)* | Same core for everyone, one config folder per customer |
 
 **Architecture decisions:** legacy to modular monolith with the Strangler Fig pattern, without stopping operations · two frontends and one API, isolated by persona, so the customer app stays stable while the back office grows.
+
+**Podcasts (pt-BR):** [open source crisis and technical choices](https://open.spotify.com/episode/2BZUdIccCJrxy4DgqQjmYn) · [why technical people can no longer ignore operations](https://open.spotify.com/episode/11H0GtDjatmPrd60WOKmY6), both on Entre Chaves.
 
 **How I decide:** governance first · spec before code · cost is a requirement · minimal context · replicable by default · human in the loop.
 
