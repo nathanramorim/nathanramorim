@@ -1,40 +1,187 @@
-Hi 👋 My name is Nathan Ramos Amorim
-====================================
-
-Software Engineer
------------------
-
-Experiência em ambientes Azure, além de sólida habilidade em .NET, React e TypeScript. Entusiasta em arquitetura de soluções na nuvem e formado em Sistemas de Informação, sou apaixonado por tecnologia e otimização de processos. Lidero equipes para entregar soluções escaláveis e robustas, com foco em transformar ideias em resultados concretos e de alto impacto para os negócios.
-
-*   🌍  I'm based in Brazil
-
-### Skills 
-<p align="left">
-<p align="left"> <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://dotnet.microsoft.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" alt="dotnet" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://jestjs.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" alt="jest" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.rabbitmq.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg" alt="rabbitMQ" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a> <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
+<p align="center">
+  <img src="./assets/banner.svg" alt="Nathan Amorim | Solutions Architect, Tech Lead e AI Operations" width="100%"/>
 </p>
-                    
-### Socials
 
+<p align="center">
+  <a href="https://nathanramorim.github.io"><img src="https://img.shields.io/badge/site-nathanramorim.github.io-4f8ef7?style=for-the-badge&labelColor=0d0f14" alt="Site"/></a>
+  <a href="https://www.linkedin.com/in/nathanramorim"><img src="https://img.shields.io/badge/LinkedIn-conectar-4f8ef7?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d0f14" alt="LinkedIn"/></a>
+  <a href="https://forge-sdd.vercel.app"><img src="https://img.shields.io/badge/Forge_SDD-docs-4f8ef7?style=for-the-badge&labelColor=0d0f14" alt="Forge SDD"/></a>
+  <a href="https://www.npmjs.com/package/@nathanramorim/forge-sdd"><img src="https://img.shields.io/npm/v/@nathanramorim/forge-sdd?style=for-the-badge&label=npm&color=4f8ef7&labelColor=0d0f14" alt="npm"/></a>
+</p>
 
-<p align="left">
-    <a href="https://discord.com/users/nathanramorim" target="_blank" rel="noreferrer">
-  <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" />
-  <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" width="32" height="32" />
-  </picture>
-  </a>
-    <a href="https://www.github.com/nathanramorim" target="_blank" rel="noreferrer">
-  <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" />
-  <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" />
-  </picture>
-  </a>
-    <a href="https://www.linkedin.com/in/nathanramorim" target="_blank" rel="noreferrer">
-  <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" />
-  <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" />
-  </picture>
-  </a></p>
+<p align="center">🇧🇷 Português · <a href="#-english">🇺🇸 English</a></p>
+
+---
+
+### Eu transformo problema de negócio em sistema rodando, e a IA já faz parte de como a entrega acontece.
+
+Arquiteto de soluções e tech lead na **DTI Digital**, com mais de 5 anos liderando times em ambientes corporativos de governança forte. Na **Busize**, minha consultoria, levo operação, automação e IA aplicada para empresas menores.
+
+Meu foco não é a linguagem nem o framework. É **chegar ao resultado com previsibilidade**: spec antes do código, agentes fazendo o trabalho repetitivo, humano decidindo o que importa, e tudo rastreável.
+
+<table>
+<tr>
+<td align="center" width="25%"><h3>🧭</h3><b>Arquitetura</b><br/><sub>soluções em nuvem que cabem no orçamento e na governança</sub></td>
+<td align="center" width="25%"><h3>🤖</h3><b>Operação com IA</b><br/><sub>pipelines de agentes do backlog ao deploy</sub></td>
+<td align="center" width="25%"><h3>⚙️</h3><b>Automação</b><br/><sub>processos manuais que viram rotina de máquina</sub></td>
+<td align="center" width="25%"><h3>👥</h3><b>Liderança técnica</b><br/><sub>times que entregam com método, não com heroísmo</sub></td>
+</tr>
+</table>
+
+---
+
+## 🔁 Como uma entrega acontece
+
+```mermaid
+flowchart LR
+    A([Problema de negócio]) --> B[Spec<br/>Forge SDD]
+    B --> C{Humano<br/>aprova?}
+    C -- não --> B
+    C -- sim --> D[Agente<br/>backlog]
+    D --> E[Agente<br/>dev]
+    E --> F[Agente<br/>review]
+    F -- ajustes --> E
+    F --> G[Agente<br/>devops]
+    G --> H([Produção<br/>rastreável])
+
+    classDef human fill:#0d0f14,stroke:#4f8ef7,color:#f5f7fb,stroke-width:2px;
+    classDef agent fill:#141925,stroke:#2a3245,color:#c3cad8;
+    classDef done fill:#4f8ef7,stroke:#4f8ef7,color:#0d0f14,font-weight:bold;
+    class A,B,C human;
+    class D,E,F,G agent;
+    class H done;
+```
+
+> O GitHub Project é o board oficial: cada card é uma spec, e cada agente só começa quando o card chega na coluna dele.
+
+---
+
+## 🛠️ Ferramentas que construí
+
+| | Ferramenta | Problema que resolve | Como resolve |
+|:-:|---|---|---|
+| ⚒️ | **[Forge SDD](https://github.com/nathanramorim/forge-sdd)**<br/><sub>open source · npm</sub> | IA gerando código sem contexto, e cada projeto com um jeito diferente | Metodologia de **Spec Driven Development**: constitution, discovery e specs que guiam humanos e agentes, com variantes para Next.js, React + Vite e Node |
+| 🧠 | **[arsenal-ia](https://github.com/nathanramorim/arsenal-ia)**<br/><sub>open source</sub> | Agentes reaprendendo boas práticas a cada tarefa e gastando token com isso | Base de conhecimento com **índice roteável**: o agente lê só o que a tarefa pede (princípios, padrões, stacks, plataformas, governança e ADRs) |
+| 🧩 | **Skills e plugins para Claude**<br/><sub>open source</sub><!-- TODO: trocar pelo link do repositório público das skills --> | Conhecimento de entrega preso na cabeça de quem já fez | Skills reutilizáveis: diagrama técnico, proposta comercial, arquitetura Azure custo zero, diagrama de domínios a partir do código, convenção Python com uv e sync de projetos com o Google Drive |
+| 🎛️ | **Orquestrador de agentes**<br/><sub>CLI · em construção</sub> | Coordenar vários agentes sem perder custo e status de vista | Pipeline backlog → dev → review → devops no terminal, com painel de custo e execução |
+| 🏢 | **Hub de operação**<br/><sub>interno · em construção</sub> | Vários clientes em paralelo, cada um com repositórios, documentos e pendências espalhados | Repositório central que conhece todos os projetos, lê do GitHub sob demanda e transforma cada entrega em conhecimento reutilizável |
+| 💬 | **Agente replicável por nicho**<br/><sub>produto · em construção</sub> | Pequenos negócios querem IA, mas não um projeto sob medida | Núcleo fixo com MCP e APIs do cliente, mais uma pasta de configuração por cliente, rodando em container |
+
+---
+
+## ⚖️ Decisões de arquitetura
+
+Prefiro mostrar **como decido** a listar o que sei usar. Algumas decisões reais, resumidas no formato ADR:
+
+<details open>
+<summary><b>ADR 01 · Agentes de código rodam local; agentes de texto passam por gateway</b></summary>
+<br/>
+
+| Contexto | Decisão | Trade off | Resultado |
+|---|---|---|---|
+| Pipeline com 4 agentes e modelos diferentes por etapa | Backlog e review chamam a **OpenRouter**; dev e devops rodam o **Claude Code na máquina**, autenticados direto no provedor | Duas formas de autenticação para manter | O código não sai do ambiente controlado, e as etapas de texto ficam livres para trocar de modelo por custo |
+
+</details>
+
+<details>
+<summary><b>ADR 02 · O board é a fonte da verdade, não o agente</b></summary>
+<br/>
+
+| Contexto | Decisão | Trade off | Resultado |
+|---|---|---|---|
+| Agentes autônomos tendem a "decidir sozinhos" o que fazer | **GitHub Project** como board canônico: a spec vive na issue e o agente dev só executa com status `ready` | Menos autonomia dos agentes | Cada passo é auditável, e o humano para o fluxo movendo um card |
+
+</details>
+
+<details>
+<summary><b>ADR 03 · Conhecimento sob demanda, não contexto gigante</b></summary>
+<br/>
+
+| Contexto | Decisão | Trade off | Resultado |
+|---|---|---|---|
+| Prompts inchados com todas as boas práticas a cada chamada | **Índice roteável** (`INDEX.md`) que aponta para o arquivo certo conforme a tarefa | Exige curadoria do índice | Menos token por tarefa e respostas mais consistentes |
+
+</details>
+
+<details>
+<summary><b>ADR 04 · Produto replicável = núcleo fixo + configuração por cliente</b></summary>
+<br/>
+
+| Contexto | Decisão | Trade off | Resultado |
+|---|---|---|---|
+| Cada cliente pedindo "o seu agente" | Um **núcleo único** em container e uma **pasta de config** com contexto, ferramentas e MCP de cada cliente | Customização profunda fica limitada | Cliente novo vira configuração, não projeto |
+
+</details>
+
+<details>
+<summary><b>ADR 05 · Recomeçar do zero quando o custo de consertar é maior</b></summary>
+<br/>
+
+| Contexto | Decisão | Trade off | Resultado |
+|---|---|---|---|
+| Hub antigo de clientes com estrutura que não escalava | Criar um **repositório novo** a partir de constitution e discovery do Forge SDD, migrando os projetos depois | Retrabalho de migração | Base limpa, documentada e pronta para crescer |
+
+</details>
+
+### Meus princípios de decisão
+
+| Princípio | Na prática |
+|---|---|
+| 🔐 **Governança primeiro** | Toda ferramenta passa por licença, segurança e tratamento de dados antes de entrar |
+| 📝 **Spec antes de código** | Se não está escrito, nem humano nem agente começa |
+| 💰 **Custo é requisito** | Arquitetura que cabe no orçamento, e custo zero quando dá |
+| 🎯 **Contexto mínimo** | Agente recebe só o que precisa: menos token, menos erro |
+| 🔁 **Replicável por padrão** | O que funciona para um cliente vira template para o próximo |
+| 🙋 **Humano no loop** | Agente executa, pessoa decide |
+
+---
+
+## 📈 Cases
+
+| Desafio | Abordagem | Entrega |
+|---|---|---|
+| **Escritório contábil com mais de 1000 clientes** baixando arquivos fiscais um a um | Automação do download em massa via procuração eletrônica | Download em lote e automatizado, no lugar do processo cliente a cliente |
+| **Rede de autopeças com cerca de 12 filiais** precisando trocar de ERP | Levantamento de processos, critérios de governança e comparação de fornecedores | Decisão de ERP baseada em critério, não em demo |
+| **Sistema SaaS prestes a entrar em produção** | Auditoria de segurança, riscos e infraestrutura antes do go live | Lista priorizada de riscos e plano de correção antes do primeiro cliente |
+
+---
+
+## 📚 Conteúdo
+
+Publico a série **AI Engineering** no [LinkedIn](https://www.linkedin.com/in/nathanramorim), sobre as três camadas de quem trabalha sério com IA:
+
+**Prompt Engineering** → **Context Engineering** → **Harness Engineering**
+
+---
+
+<a id="-english"></a>
+<details>
+<summary><b>🇺🇸 English</b></summary>
+<br/>
+
+### I turn business problems into running systems, with AI built into how delivery happens.
+
+Solutions Architect and Tech Lead at **DTI Digital**, with 5+ years leading teams in enterprise environments with strong governance. Through **Busize**, my consultancy, I bring operations, automation and applied AI to smaller businesses.
+
+I don't sell a language or a framework. I sell **predictable outcomes**: spec before code, agents doing the repetitive work, humans making the calls that matter, and everything traceable.
+
+**What I've built**
+
+| Tool | What it does |
+|---|---|
+| **[Forge SDD](https://github.com/nathanramorim/forge-sdd)** | Open source Spec Driven Development methodology that guides both humans and AI agents |
+| **[arsenal-ia](https://github.com/nathanramorim/arsenal-ia)** | Routable knowledge base: agents load only the best practices each task needs |
+| **Claude skills and plugins** | Reusable skills for diagrams, proposals, zero cost Azure architecture, domain maps and Drive sync |
+| **Agent orchestrator** *(WIP)* | Terminal pipeline backlog → dev → review → devops with cost and execution dashboards |
+| **Operations hub** *(WIP)* | Central repo that knows every client project and turns each delivery into reusable knowledge |
+| **Niche agent product** *(WIP)* | Fixed core with MCP and client APIs, configured per customer, running in containers |
+
+**How I decide:** governance first · spec before code · cost is a requirement · minimal context · replicable by default · human in the loop.
+
+</details>
+
+---
+
+<p align="center">
+  <sub>Stack é meio, não fim. Hoje trabalho principalmente com .NET, TypeScript, Python e Azure, e escolho o que o problema pede.</sub>
+</p>
