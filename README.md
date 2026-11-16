@@ -76,24 +76,11 @@ Duas decisões reais, contadas de forma simples. Os clientes estão anonimizados
 
 <p align="center"><img src="./assets/principios.svg" alt="Seis princípios de decisão" width="100%"/></p>
 
----|---|
-| 🔐 **Governança primeiro** | Toda ferramenta passa por licença, segurança e tratamento de dados antes de entrar |
-| 📝 **Escrever antes de codar** | Se não está escrito, nem pessoa nem agente começa |
-| 💰 **Custo é requisito** | Arquitetura que cabe no orçamento, e custo zero quando dá |
-| 🎯 **Só o necessário** | O agente recebe só o que precisa: gasta menos e erra menos |
-| 🔁 **Fazer uma vez, usar sempre** | O que funciona para um cliente vira modelo para o próximo |
-| 🙋 **Pessoa decide** | O agente executa, a pessoa aprova |
-
 ---
 
 ## 📈 Cases
 
 <p align="center"><img src="./assets/cases.svg" alt="Três cases: escritório contábil, rede de autopeças e SaaS indo para produção" width="100%"/></p>
-
----|---|---|
-| **Escritório contábil com mais de 1000 clientes** baixando arquivos fiscais um a um | Automação do download em massa com procuração eletrônica | Download em lote e automatizado, no lugar do processo cliente a cliente |
-| **Rede de autopeças com cerca de 12 filiais** precisando trocar de ERP | Levantamento de processos, critérios de governança e comparação de fornecedores | Decisão de ERP baseada em critério, não em demo |
-| **Sistema SaaS prestes a entrar em produção** | Auditoria de segurança, riscos e infraestrutura antes de ir ao ar | Lista priorizada de riscos e plano de correção antes do primeiro cliente |
 
 ---
 
