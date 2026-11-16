@@ -61,8 +61,8 @@ flowchart LR
 | | Ferramenta | Problema que resolve | Como resolve |
 |:-:|---|---|---|
 | ⚒️ | **[Forge SDD](https://github.com/nathanramorim/forge-sdd)**<br/><sub>open source · npm</sub> | IA gerando código sem contexto, e cada projeto com um jeito diferente | Metodologia de **Spec Driven Development**: constitution, discovery e specs que guiam humanos e agentes, com variantes para Next.js, React + Vite e Node |
-| 🧠 | **[arsenal-ia](https://github.com/nathanramorim/arsenal-ia)**<br/><sub>open source</sub> | Agentes reaprendendo boas práticas a cada tarefa e gastando token com isso | Base de conhecimento com **índice roteável**: o agente lê só o que a tarefa pede (princípios, padrões, stacks, plataformas, governança e ADRs) |
-| 🧩 | **Skills e plugins para Claude**<br/><sub>open source</sub><!-- TODO: trocar pelo link do repositório público das skills --> | Conhecimento de entrega preso na cabeça de quem já fez | Skills reutilizáveis: diagrama técnico, proposta comercial, arquitetura Azure custo zero, diagrama de domínios a partir do código, convenção Python com uv e sync de projetos com o Google Drive |
+| 📄 | **[readme-studio](https://github.com/nathanramorim/readme-studio)**<br/><sub>open source · MIT</sub> | README sem padrão, que não vende o projeto | Plugin para Claude Code e skill para agy: lê o projeto, gera banner com a marca, selos e tabela de versões, e só grava depois do seu "sim" |
+| 🗂️ | **[drive-hub-sync](https://github.com/nathanramorim/drive-hub-sync)**<br/><sub>open source · MIT</sub> | Documentação de cada projeto espalhada, sem visão do todo | Gera a documentação do projeto e sincroniza uma estrutura padrão no Google Drive, pronta para o NotebookLM conhecer todos os projetos. Código e segredos nunca sobem |
 | 🎛️ | **Orquestrador de agentes**<br/><sub>CLI · em construção</sub> | Coordenar vários agentes sem perder custo e status de vista | Pipeline backlog → dev → review → devops no terminal, com painel de custo e execução |
 | 🏢 | **Hub de operação**<br/><sub>interno · em construção</sub> | Vários clientes em paralelo, cada um com repositórios, documentos e pendências espalhados | Repositório central que conhece todos os projetos, lê do GitHub sob demanda e transforma cada entrega em conhecimento reutilizável |
 | 💬 | **Agente replicável por nicho**<br/><sub>produto · em construção</sub> | Pequenos negócios querem IA, mas não um projeto sob medida | Núcleo fixo com MCP e APIs do cliente, mais uma pasta de configuração por cliente, rodando em container |
@@ -170,8 +170,8 @@ I don't sell a language or a framework. I sell **predictable outcomes**: spec be
 | Tool | What it does |
 |---|---|
 | **[Forge SDD](https://github.com/nathanramorim/forge-sdd)** | Open source Spec Driven Development methodology that guides both humans and AI agents |
-| **[arsenal-ia](https://github.com/nathanramorim/arsenal-ia)** | Routable knowledge base: agents load only the best practices each task needs |
-| **Claude skills and plugins** | Reusable skills for diagrams, proposals, zero cost Azure architecture, domain maps and Drive sync |
+| **[readme-studio](https://github.com/nathanramorim/readme-studio)** | Claude Code plugin that generates a branded, standardized README from your project |
+| **[drive-hub-sync](https://github.com/nathanramorim/drive-hub-sync)** | Generates project docs and syncs a standard structure to Google Drive, ready for NotebookLM. Code and secrets never leave |
 | **Agent orchestrator** *(WIP)* | Terminal pipeline backlog → dev → review → devops with cost and execution dashboards |
 | **Operations hub** *(WIP)* | Central repo that knows every client project and turns each delivery into reusable knowledge |
 | **Niche agent product** *(WIP)* | Fixed core with MCP and client APIs, configured per customer, running in containers |
