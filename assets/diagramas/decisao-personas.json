@@ -1,0 +1,24 @@
+{
+  "kicker": "// decisão 02 · isolamento por persona",
+  "titulo": "Dois frontends, uma API, separados por quem usa",
+  "altura": 500,
+  "elementos": [
+    {"tipo": "caixa", "id": "p1", "x": 250, "y": 124, "w": 180, "h": 36, "texto": "cliente final", "estilo": "pill"},
+    {"tipo": "caixa", "id": "p2", "x": 850, "y": 124, "w": 180, "h": 36, "texto": "gestão do negócio", "estilo": "pill"},
+    {"tipo": "caixa", "id": "f1", "x": 170, "y": 188, "w": 340, "h": 128, "texto": "", "estilo": "contorno"},
+    {"tipo": "texto", "x": 340, "y": 220, "texto": "App do cliente", "estilo": "titulo"},
+    {"tipo": "chips", "cx": 340, "y": 238, "itens": ["agendar", "acompanhar"]},
+    {"tipo": "texto", "x": 340, "y": 298, "texto": "estável e simples", "estilo": "nota"},
+    {"tipo": "caixa", "id": "f2", "x": 770, "y": 188, "w": 340, "h": 128, "texto": "", "estilo": "contorno"},
+    {"tipo": "texto", "x": 940, "y": 220, "texto": "Painel da gestão", "estilo": "titulo"},
+    {"tipo": "chips", "cx": 940, "y": 238, "itens": ["agenda", "equipe", "+ novo módulo"]},
+    {"tipo": "texto", "x": 940, "y": 298, "texto": "ganha módulos novos", "estilo": "nota"},
+    {"tipo": "divisoria", "x": 640, "y1": 120, "y2": 330, "rotulo": "isolamento"},
+    {"tipo": "caixa", "id": "api", "x": 430, "y": 386, "w": 420, "h": 84, "texto": "API única", "sub": "acesso e permissões por persona", "estilo": "destaque", "tamanho": 20},
+    {"tipo": "seta", "de": "p1.baixo", "para": "f1.cima"},
+    {"tipo": "seta", "de": "p2.baixo", "para": "f2.cima"},
+    {"tipo": "seta", "de": "f1.baixo", "para": "api.cima:0.33", "meio": 356},
+    {"tipo": "seta", "de": "f2.baixo", "para": "api.cima:0.67", "meio": 356}
+  ],
+  "nota_rodape": "regra de negócio em um lugar só · cada lado evolui sem afetar o outro"
+}

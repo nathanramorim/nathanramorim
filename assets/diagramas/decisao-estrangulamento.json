@@ -1,0 +1,287 @@
+{
+ "kicker": "// decisão 01 · strangler fig",
+ "titulo": "Legado → monólito modular, sem parar a operação",
+ "altura": 490,
+ "elementos": [
+  {
+   "tipo": "texto",
+   "x": 226,
+   "y": 140,
+   "texto": "FASE 1",
+   "estilo": "rotulo"
+  },
+  {
+   "tipo": "caixa",
+   "id": "u1",
+   "x": 146,
+   "y": 156,
+   "w": 160,
+   "h": 34,
+   "texto": "usuários",
+   "estilo": "pill"
+  },
+  {
+   "tipo": "caixa",
+   "id": "f1",
+   "x": 76,
+   "y": 214,
+   "w": 300,
+   "h": 40,
+   "texto": "fachada de rotas",
+   "estilo": "contorno"
+  },
+  {
+   "tipo": "seta",
+   "de": "u1.baixo",
+   "para": "f1.cima"
+  },
+  {
+   "tipo": "caixa",
+   "id": "l1",
+   "x": 76,
+   "y": 300,
+   "w": 200,
+   "h": 130,
+   "texto": "legado",
+   "estilo": "apagado"
+  },
+  {
+   "tipo": "seta",
+   "de": [
+    176.0,
+    254
+   ],
+   "para": "l1.cima"
+  },
+  {
+   "tipo": "caixa",
+   "id": "n1",
+   "x": 296,
+   "y": 300,
+   "w": 80,
+   "h": 130,
+   "texto": "novo",
+   "estilo": "grupo"
+  },
+  {
+   "tipo": "caixa",
+   "x": 308,
+   "y": 332.0,
+   "w": 56,
+   "h": 90.0,
+   "texto": "mód. 1",
+   "estilo": "destaque",
+   "raio": 6,
+   "tamanho": 13
+  },
+  {
+   "tipo": "seta",
+   "de": [
+    336.0,
+    254
+   ],
+   "para": "n1.cima"
+  },
+  {
+   "tipo": "texto",
+   "x": 226,
+   "y": 462,
+   "texto": "tudo passa pela fachada"
+  },
+  {
+   "tipo": "texto",
+   "x": 626,
+   "y": 140,
+   "texto": "FASE 2",
+   "estilo": "rotulo"
+  },
+  {
+   "tipo": "caixa",
+   "id": "u2",
+   "x": 546,
+   "y": 156,
+   "w": 160,
+   "h": 34,
+   "texto": "usuários",
+   "estilo": "pill"
+  },
+  {
+   "tipo": "caixa",
+   "id": "f2",
+   "x": 476,
+   "y": 214,
+   "w": 300,
+   "h": 40,
+   "texto": "fachada de rotas",
+   "estilo": "contorno"
+  },
+  {
+   "tipo": "seta",
+   "de": "u2.baixo",
+   "para": "f2.cima"
+  },
+  {
+   "tipo": "caixa",
+   "id": "l2",
+   "x": 476,
+   "y": 300,
+   "w": 120,
+   "h": 130,
+   "texto": "legado",
+   "estilo": "apagado"
+  },
+  {
+   "tipo": "seta",
+   "de": [
+    536.0,
+    254
+   ],
+   "para": "l2.cima"
+  },
+  {
+   "tipo": "caixa",
+   "id": "n2",
+   "x": 616,
+   "y": 300,
+   "w": 160,
+   "h": 130,
+   "texto": "monólito modular",
+   "estilo": "grupo"
+  },
+  {
+   "tipo": "caixa",
+   "x": 628,
+   "y": 332.0,
+   "w": 136,
+   "h": 41.0,
+   "texto": "módulo 1",
+   "estilo": "destaque",
+   "raio": 6,
+   "tamanho": 13
+  },
+  {
+   "tipo": "caixa",
+   "x": 628,
+   "y": 381.0,
+   "w": 136,
+   "h": 41.0,
+   "texto": "módulo 2",
+   "estilo": "destaque",
+   "raio": 6,
+   "tamanho": 13
+  },
+  {
+   "tipo": "seta",
+   "de": [
+    696.0,
+    254
+   ],
+   "para": "n2.cima"
+  },
+  {
+   "tipo": "texto",
+   "x": 626,
+   "y": 462,
+   "texto": "módulos migram um a um"
+  },
+  {
+   "tipo": "texto",
+   "x": 1026,
+   "y": 140,
+   "texto": "FASE 3",
+   "estilo": "rotulo"
+  },
+  {
+   "tipo": "caixa",
+   "id": "u3",
+   "x": 946,
+   "y": 156,
+   "w": 160,
+   "h": 34,
+   "texto": "usuários",
+   "estilo": "pill"
+  },
+  {
+   "tipo": "caixa",
+   "id": "f3",
+   "x": 876,
+   "y": 214,
+   "w": 300,
+   "h": 40,
+   "texto": "fachada de rotas",
+   "estilo": "contorno"
+  },
+  {
+   "tipo": "seta",
+   "de": "u3.baixo",
+   "para": "f3.cima"
+  },
+  {
+   "tipo": "caixa",
+   "id": "l3",
+   "x": 876,
+   "y": 300,
+   "w": 70,
+   "h": 130,
+   "texto": "off",
+   "estilo": "tracejado"
+  },
+  {
+   "tipo": "caixa",
+   "id": "n3",
+   "x": 966,
+   "y": 300,
+   "w": 210,
+   "h": 130,
+   "texto": "monólito modular",
+   "estilo": "grupo"
+  },
+  {
+   "tipo": "caixa",
+   "x": 978,
+   "y": 332.0,
+   "w": 186,
+   "h": 24.666666666666668,
+   "texto": "módulo 1",
+   "estilo": "destaque",
+   "raio": 6,
+   "tamanho": 13
+  },
+  {
+   "tipo": "caixa",
+   "x": 978,
+   "y": 364.6666666666667,
+   "w": 186,
+   "h": 24.666666666666668,
+   "texto": "módulo 2",
+   "estilo": "destaque",
+   "raio": 6,
+   "tamanho": 13
+  },
+  {
+   "tipo": "caixa",
+   "x": 978,
+   "y": 397.33333333333337,
+   "w": 186,
+   "h": 24.666666666666668,
+   "texto": "módulo 3",
+   "estilo": "destaque",
+   "raio": 6,
+   "tamanho": 13
+  },
+  {
+   "tipo": "seta",
+   "de": [
+    1071.0,
+    254
+   ],
+   "para": "n3.cima"
+  },
+  {
+   "tipo": "texto",
+   "x": 1026,
+   "y": 462,
+   "texto": "legado desligado"
+  }
+ ]
+}
