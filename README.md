@@ -13,9 +13,9 @@
 
 ---
 
-### Eu transformo problema de negócio em sistema rodando, e a IA já faz parte de como a entrega acontece.
+### Transformo problema de negócio em sistema funcionando, usando IA no jeito de entregar.
 
-Arquiteto de soluções e tech lead na **DTI Digital**, com mais de 5 anos liderando times em ambientes corporativos de governança forte. Na **Busize**, minha consultoria, levo operação, automação e IA aplicada para empresas menores.
+Arquiteto de soluções e tech lead na **DTI Digital**, com mais de 5 anos liderando times em empresas com regras fortes de segurança e governança. Na **Busize**, minha consultoria, levo operação, automação e IA aplicada para empresas menores.
 
 Meu foco não é a linguagem. É **entregar resultado sem surpresa**: primeiro escrevo o que vai ser feito, os agentes de IA fazem o trabalho repetitivo, e as pessoas decidem o que importa.
 
@@ -23,7 +23,7 @@ Meu foco não é a linguagem. É **entregar resultado sem surpresa**: primeiro e
 <tr>
 <td align="center" width="25%"><h3>🧭</h3><b>Arquitetura</b><br/><sub>soluções em nuvem que cabem no orçamento e na governança</sub></td>
 <td align="center" width="25%"><h3>🤖</h3><b>Operação com IA</b><br/><sub>agentes que vão da tarefa ao deploy</sub></td>
-<td align="center" width="25%"><h3>⚙️</h3><b>Automação</b><br/><sub>processos manuais que viram rotina de máquina</sub></td>
+<td align="center" width="25%"><h3>⚙️</h3><b>Automação</b><br/><sub>trabalho manual que passa a rodar sozinho</sub></td>
 <td align="center" width="25%"><h3>👥</h3><b>Liderança técnica</b><br/><sub>times que entregam com método, não com heroísmo</sub></td>
 </tr>
 </table>
@@ -34,7 +34,7 @@ Meu foco não é a linguagem. É **entregar resultado sem surpresa**: primeiro e
 
 ```mermaid
 flowchart LR
-    A([Problema de negócio]) --> B[Spec<br/>Forge SDD]
+    A([Problema de negócio]) --> B[O que fazer<br/>Forge SDD]
     B --> C{Humano<br/>aprova?}
     C -- não --> B
     C -- sim --> D[Agente<br/>backlog]
@@ -42,7 +42,7 @@ flowchart LR
     E --> F[Agente<br/>review]
     F -- ajustes --> E
     F --> G[Agente<br/>devops]
-    G --> H([Produção<br/>rastreável])
+    G --> H([No ar<br/>e rastreável])
 
     classDef human fill:#0d0f14,stroke:#4f8ef7,color:#f5f7fb,stroke-width:2px;
     classDef agent fill:#141925,stroke:#2a3245,color:#c3cad8;
@@ -80,7 +80,7 @@ Duas decisões reais, contadas de forma simples. Os clientes estão anonimizados
 |---|---|
 | 🧩 **O desafio** | Uma plataforma de planejamento de um cliente B2B rodava num sistema legado que precisava evoluir, mas a operação não podia parar. |
 | ✅ **A decisão** | Migrar para um **monólito modular** usando **estrangulamento** (Strangler Fig). Uma fachada recebe todas as chamadas e decide, rota por rota, se vai para o legado ou para o módulo novo. |
-| 💡 **Por quê** | Cada parte migra de uma vez, com teste e com volta fácil se algo der errado. O usuário não percebe a troca. E os módulos nascem com fronteiras claras, num deploy só. |
+| 💡 **Por quê** | Cada parte migra separada, com teste e com volta fácil se algo der errado. O usuário não percebe a troca. E os módulos nascem com fronteiras claras, num deploy só. |
 
 ### 2. Dois frontends e uma API, separados por quem usa
 
@@ -97,11 +97,11 @@ Duas decisões reais, contadas de forma simples. Os clientes estão anonimizados
 | Princípio | Na prática |
 |---|---|
 | 🔐 **Governança primeiro** | Toda ferramenta passa por licença, segurança e tratamento de dados antes de entrar |
-| 📝 **Spec antes de código** | Se não está escrito, nem humano nem agente começa |
+| 📝 **Escrever antes de codar** | Se não está escrito, nem pessoa nem agente começa |
 | 💰 **Custo é requisito** | Arquitetura que cabe no orçamento, e custo zero quando dá |
-| 🎯 **Contexto mínimo** | Agente recebe só o que precisa: menos token, menos erro |
-| 🔁 **Replicável por padrão** | O que funciona para um cliente vira template para o próximo |
-| 🙋 **Humano no loop** | Agente executa, pessoa decide |
+| 🎯 **Só o necessário** | O agente recebe só o que precisa: gasta menos e erra menos |
+| 🔁 **Fazer uma vez, usar sempre** | O que funciona para um cliente vira modelo para o próximo |
+| 🙋 **Pessoa decide** | O agente executa, a pessoa aprova |
 
 ---
 
@@ -109,15 +109,15 @@ Duas decisões reais, contadas de forma simples. Os clientes estão anonimizados
 
 | Desafio | Abordagem | Entrega |
 |---|---|---|
-| **Escritório contábil com mais de 1000 clientes** baixando arquivos fiscais um a um | Automação do download em massa via procuração eletrônica | Download em lote e automatizado, no lugar do processo cliente a cliente |
+| **Escritório contábil com mais de 1000 clientes** baixando arquivos fiscais um a um | Automação do download em massa com procuração eletrônica | Download em lote e automatizado, no lugar do processo cliente a cliente |
 | **Rede de autopeças com cerca de 12 filiais** precisando trocar de ERP | Levantamento de processos, critérios de governança e comparação de fornecedores | Decisão de ERP baseada em critério, não em demo |
-| **Sistema SaaS prestes a entrar em produção** | Auditoria de segurança, riscos e infraestrutura antes do go live | Lista priorizada de riscos e plano de correção antes do primeiro cliente |
+| **Sistema SaaS prestes a entrar em produção** | Auditoria de segurança, riscos e infraestrutura antes de ir ao ar | Lista priorizada de riscos e plano de correção antes do primeiro cliente |
 
 ---
 
 ## 📚 Conteúdo
 
-Publico a série **AI Engineering** no [LinkedIn](https://www.linkedin.com/in/nathanramorim), sobre as três camadas de quem trabalha sério com IA:
+Publico a série **AI Engineering** no [LinkedIn](https://www.linkedin.com/in/nathanramorim), sobre as três camadas para usar IA a sério no trabalho:
 
 **Prompt Engineering** → **Context Engineering** → **Harness Engineering**
 
